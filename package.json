@@ -1,6 +1,6 @@
 {
   "name": "fd-animate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Animate DOM elements in FP-style.",
   "main": "index.js",
   "scripts": {
