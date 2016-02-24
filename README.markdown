@@ -20,11 +20,11 @@ let animationFunction = () => [
       {cssProperty: value1},
       {cssProperty: value2},
      ];
-let configFunction = () => {
+let configFunction = () => ({
      duration: timeInMs,
      iterations: iterationCount,
      delay: delayValue
-  }
+  })
   
 let player = animate(animationFunction, configFunction, element);
 
